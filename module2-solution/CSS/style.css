@@ -1,0 +1,65 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	
+}
+body{
+	font-family: sans-serif;
+}
+h1{
+text-align: center;
+margin: 20px;
+
+}
+
+
+/*******tablet******/
+@media(min-width: 768px) and (max-width: 991px)
+{
+	.col-tab{
+		width: 48.5%;
+	}
+	.sec3tab{
+		width :100%;
+	}
+}
+
+/****mobile*****/
+@media(max-width: 767px)
+{
+	.col-mob{
+		width: 100%;
+	}
+}
+div {
+	float: left;
+   width: 32.5%;
+  border: 1px solid black;
+  margin: 4px;
+  text-align: center;
+  position: relative;
+  background-color: grey;
+
+}
+.sec1{
+background-color: red;
+}
+.sec2{
+	background-color: blue;
+}
+.sec3{
+	background-color: green;
+}
+p{
+	
+	float: right;
+	top:0;
+	right: 0;
+	border: 1px solid black;
+	padding: 10px;
+
+
+}
+section{
+padding: 20px;
+margin-top: 20px;}
