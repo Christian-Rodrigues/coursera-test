@@ -1,0 +1,107 @@
+body{
+	background-color: #CFFF3B;
+}
+header{
+	margin-bottom: 0;
+}
+#header-nav {
+  background-color: #5DDFF6;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  margin-bottom: 25px;
+  position: relative;
+  position: absolute;
+}
+.navbar-brand h1 { /*Food,LLc*/
+	
+  font-family: 'Monoton', cursive;
+  color: blue;
+    margin-top: 0;
+  margin-bottom: 50px;
+  border: 0;
+
+  line-height: .75;
+  padding-bottom: 20px;
+  
+
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	border : 0;
+  text-decoration: none;
+}
+.navbar-static-top .container{/* to keep navbar on top an scroll away*/
+	box-sizing: border-box;
+	padding-left: 0;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+.navbar{
+	margin-bottom: 0;
+}
+div#collapsable-nav{
+
+padding: 0;
+margin: 0;
+background-color: yellow;
+
+}
+#nav-list { 
+	width: 100%;
+	background-color: #0CEC1C;
+  margin:0;
+}
+#nav-list a {
+
+  text-align: center;
+  text-decoration: none;
+}
+ul{
+	padding: 0;
+}
+li{
+	border:1px solid black;
+}
+#nav-list a div{
+	color: #2E0B03;
+}
+#nav-list a:hover div {
+  color: white;
+}
+.navbar-header button.navbar-toggle  {
+	float: right;
+	border: 2px solid;
+
+}
+
+h2{
+	font-family: 'Rokkitt', serif;
+	font-size:3em; 
+	color: #2138C2;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.container{
+	width:90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.row>div{
+	height: 1000px;
+	background-color:#1F1A1A ;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+div.text-center{
+	color: #23FC1E;
+	margin-top: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+p{
+	margin-top: 30px;
+	color: #B342CF;
+	font-family: 'Architects Daughter', cursive;
+}
